@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="wmcads-container wmcads-p-t-lg wmcads-p-b-lg wmcads-grid">
       <div className="wmcads-col-1">
-        <h2>Hello West Midlands!</h2>
+        <h2>Hello West Midlands changes</h2>
         <p>Don&apos;t forget to:</p>
         <ul>
           <li>
