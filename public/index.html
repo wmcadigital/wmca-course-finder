@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" class="wmcads-html">
+  <head>
+    <meta charset="utf-8" />
+
+    <!-- CHANGE ME -->
+    <title>%REACT_APP_TITLE% - West Midlands Combined Authority</title>
+    <meta name="description" content="%REACT_APP_DESCRIPTION%" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://cloudcdn.wmca.org.uk/wmcaassets/ds/%REACT_APP_WMCADS_VERSION%/config/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://cloudcdn.wmca.org.uk/wmcaassets/ds/%REACT_APP_WMCADS_VERSION%/config/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://cloudcdn.wmca.org.uk/wmcaassets/ds/%REACT_APP_WMCADS_VERSION%/config/favicons/favicon-16x16.png"
+    />
+    <!--
+    <link
+      rel="manifest"
+      href="//unpkg.com/wmca-design-system@%REACT_APP_wmcaDS_VERSION%/build/config/favicons/site.webmanifest"
+    />
+    <link
+      rel="mask-icon"
+      href="//unpkg.com/wmca-design-system@%REACT_APP_wmcaDS_VERSION%/build/config/favicons/safari-pinned-tab.svg"
+      color="#3c1053"
+    />
+    <link
+      rel="shortcut icon"
+      href="//unpkg.com/wmca-design-system@%REACT_APP_wmcaDS_VERSION%/build/config/favicons/favicon.ico"
+    />
+    <meta name="msapplication-TileColor" content="#3c1053" />
+    <meta
+      name="msapplication-config"
+      content="//unpkg.com/wmca-design-system@%REACT_APP_wmcaDS_VERSION%/build/config/favicons/browserconfig.xml"
+    />
+    -->
+    <meta name="theme-color" content="#f58025" />
+
+    <!-- SEO Metadata  -->
+    <meta name="title" content="%REACT_APP_TITLE%" />
+    <meta name="description" content="%REACT_APP_DESCRIPTION%" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="%PUBLIC_URL%" />
+    <meta property="og:title" content="%REACT_APP_TITLE%" />
+    <meta property="og:description" content="%REACT_APP_DESCRIPTION%" />
+    <meta
+      property="og:image"
+      content="//unpkg.com/wmca-design-system@%REACT_APP_wmcaDS_VERSION%/build/config/wmca-share.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="%PUBLIC_URL%" />
+    <meta property="twitter:title" content="%REACT_APP_TITLE%" />
+    <meta property="twitter:description" content="%REACT_APP_DESCRIPTION%" />
+    <meta
+      property="twitter:image"
+      content="//unpkg.com/wmca-design-system@%REACT_APP_wmcaDS_VERSION%/build/config/wmca-share.png"
+    />
+
+    <!-- wmca design system CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cloudcdn.wmca.org.uk/wmcaassets/ds/1.5.0/css/wmcads.min.css"
+    />
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+          'gtm.start': new Date().getTime(),
+          event: 'gtm.js',
+        });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-NVSWZS');
+    </script>
+    <!-- End Google Tag Manager -->
+  </head>
+
+  <body class="wmcads-body">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="//www.googletagmanager.com/ns.html?id=GTM-NVSWZS"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <!-- Skip to content link -->
+    <a
+      href="#wmcads-main-content"
+      title="Skip to main content"
+      target="_self"
+      class="wmcads-link wmcads-header__skip-link"
+      >Skip to main content</a
+    >
+
+    <!-- Header -->
+    <header class="wmcads-header">
+      <div class="wmcads-container wmcads-grid wmcads-grid--align-center wmcads-grid--justify-between">
+        <div class="wmcads-header__vertical-align wmcads-col-auto">
+          <!-- Logo -->
+          <a
+            class="wmcads-header__logo-link"
+            href="//wmca.org.uk"
+            title="West Midlands Combined Authority Home"
+          >
+            <img
+              class="wmcads-header__logo"
+              alt="West Midlands Combined Authority logo"
+              src="https://cloudcdn.wmca.org.uk/wmcaassets/ds/1.5.0/img/logo.svg"
+            />
+          </a>
+        </div>
+        <!-- CHANGE ME -->
+        <h1 class="wmcads-header__title wmcads-col-1 wmcads-col-sm-auto">%REACT_APP_TITLE%</h1>
+      </div>
+    </header>
+    <!-- End header -->
+
+    <!-- Breadcrumbs -->
+    <div class="wmcads-container">
+      <nav aria-label="Breadcrumb" class="wmcads-breadcrumb">
+        <ol class="wmcads-breadcrumb__list">
+          <li class="wmcads-breadcrumb__list-item">
+            <a href="//wmca.org.uk" class="wmcads-breadcrumb__link">Home</a>
+          </li>
+          <li class="wmcads-breadcrumb__list-item">
+            <a href="//wmca.org.uk/sub-page/" class="wmcads-breadcrumb__link">Sub page </a>
+          </li>
+          <li class="wmcads-breadcrumb__list-item">
+            <a
+              href="/"
+              class="wmcads-breadcrumb__link wmcads-breadcrumb__link--current"
+              aria-current="page"
+            >
+              %REACT_APP_TITLE%
+            </a>
+          </li>
+        </ol>
+      </nav>
+    </div>
+    <!-- End Breadcrumbs -->
+
+    <!-- Start app here -->
+    <main id="wmcads-main-content" class="wmcads-container--main">
+      <div id="wmca-app-name"></div>
+    </main>
+    <!-- End app -->
+
+    <!-- Footer -->
+    <footer class="wmcads-footer">
+      <div class="wmcads-container wmcads-grid">
+        <div class="wmcads-col-1 wmcads-col-md-1-2">&COPY; West Midlands Combined Authority 2022</div>
+        <div class="wmcads-col-1 wmcads-col-md-1-2">
+          <a
+            href="//www.wmca.org.uk/privacy-cookies-policy/"
+            title="Privacy and cookies policy"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="wmcads-footer__link wmcads-link"
+            >Privacy &amp; Cookies Policy</a
+          >
+        </div>
+      </div>
+    </footer>
+    <!-- End footer -->
+
+    <!-- Ajax SVG in, SVGS are referenced in app (Icon component) -->
+    <!-- Ajax SVGs from wmca Design System -->
+    <script>
+      const ajax = new XMLHttpRequest();
+      ajax.open(
+        'GET',
+        '//unpkg.com/wmca-design-system@%REACT_APP_wmcaDS_VERSION%/build/img/wmcads-icons.min.svg',
+        true
+      );
+      ajax.send();
+      ajax.onload = function () {
+        const div = document.createElement('div');
+        div.style.display = 'none';
+        div.innerHTML = ajax.responseText;
+        document.body.insertBefore(div, document.body.childNodes[0]);
+      };
+    </script>
+  </body>
+</html>

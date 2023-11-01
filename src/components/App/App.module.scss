@@ -1,0 +1,18 @@
+// Refer to https://create-react-app.dev/docs/adding-a-css-modules-stylesheet
+// On how to use scss modules with React
+
+// Import wmca Design System scss for use in this scss file
+// Tilde (~) represents the root folder(src)
+@import '/src/assets/wmcads/vars';
+@import '/src/assets/wmcads/mixins';
+
+.icon {
+  height: 50px;
+  // get-color() function taken from mixins (refer to: https://designsystem.wmcaetwork.co.uk/styles/colour-palettes/ for usage)
+  fill: get-color(secondary);
+
+  // $breakpoint-md var taken from vars
+  @media all and (min-width: $breakpoint-md) {
+    fill: get-color(primary);
+  }
+}

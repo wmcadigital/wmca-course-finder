@@ -1,0 +1,48 @@
+// PALETTE COLOURS
+// All of our palette colours with their respective tints (mix white in at 10% intervals)
+// All brand colours, see styles/colour-palettes page for more...
+$palettes: (
+  brandFurnaceOrange: #fe811b,
+  brandCoolGrey: #54565b,
+  brandWmGreen: #00807b,
+  brandWmRed: #d60037,
+  brandWmPurple: #94368d,
+  brandWmBlue: #007ea8,
+  primary: #c05701,
+  secondary: #231f20,
+  text: #231f20,
+  cta: #007da8,
+  error: #d4351c,
+  warning: #cc6900,
+  success: #00703c,
+  background: #f3f2f1,
+);
+
+$white: #ffffff;
+$black: #000000;
+
+// TEXT
+$text-color: get-color($black);
+$x-font-family: 'Noto Sans', sans-serif;
+$x-heading-font-family: 'DM Sans', sans-serif;
+
+// Base font size and line height
+$base-font-size: 16px; // 16px
+$base-line-height: 1.5rem; // 24px
+// Font sizes can be found in _mixins.scss
+
+// Sizing (used for margin, padding, line heights etc.)
+// [DON'T TOUCH EXISTING, ONLY ADD NEW ONES]
+$size-xs: 0.25rem; // 4px
+$size-xsm: 0.5rem; // 8px
+$size-sm: 0.75rem; // 12px
+$size-md: 1rem; // 16px
+$size-lg: 2rem; // 32px
+$size-xl: 3rem; // 48px
+
+// Breakpoints
+$breakpoint-xs: 0; // Extra small screen / phone
+$breakpoint-sm: 568px; // Small screen / phone
+$breakpoint-md: 768px; // Medium screen / tablet
+$breakpoint-lg: 1024px; // Large screen / desktop
+$breakpoint-xl: 1280px; // Extra large screen / wide desktop (this is used for wmcads-container size)

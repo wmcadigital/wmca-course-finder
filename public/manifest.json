@@ -1,0 +1,16 @@
+{
+  "short_name": "WMCA - Create React App Template",
+  "name": "Create React App Template - West Midlands Combined Authority",
+  "description": "Create React App Template section of the West Midlands Combined Authority website",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "192x192 144x144 96x96 72x72 48x48 36x36",
+      "type": "image/ico, image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "$getcolor(brandFurnaceOrange)",
+  "background_color": "$getcolor(background)"
+}
