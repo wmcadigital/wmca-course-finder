@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "eslint-config-airbnb": "^18.2.1",
-    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-jam3": "^0.2.3",
     "eslint-plugin-prettier": "^4.2.1",
     "npm-check-updates": "^16.10.12",
